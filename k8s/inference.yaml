@@ -9,4 +9,4 @@ spec:
     model:
       modelFormat:
         name: sklearn
-      storageUri: "s3://churn-data-1-anmol/"
+      storageUri: s3://churn-data-1-anmol/
