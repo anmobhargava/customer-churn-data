@@ -6,6 +6,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, roc_auc_score
 
 # Load data
+
+import os
+
+os.makedirs("models", exist_ok=True)
 df = pd.read_csv('data/churn_data.csv')
 
 # Features and target
